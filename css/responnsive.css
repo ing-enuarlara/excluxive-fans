@@ -1,0 +1,53 @@
+/* Large desktop */
+@media (min-width: 1200px) {}
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px){
+    .header__texto{
+        text-align: center;
+        margin-top: 1rem;
+    }
+    .navegacion{
+        display: flex;
+        gap: 2rem;
+    }
+    .btn{
+        display: inline-block;
+    }
+    .contenedor-btnSuscripcion{
+        max-width: 120rem;
+        display: flex;
+        gap: 2rem;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    .contenedor__producto{
+        grid-template-columns: repeat(3, 1fr);
+    
+    }
+    .card{
+        margin: 237px auto 0;
+    }
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {}
+
+/* Landscape phones and down */
+@media (min-width: 600px) {
+    .barra{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .navegacion{
+        display: flex;
+        gap: 2rem;
+    }
+    .contenedor-infor{
+        width: 60%;
+    }
+    .contenedor__legal{
+        width: 50%;
+    }
+}

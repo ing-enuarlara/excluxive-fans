@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>|::| NOMBRE - Exclusive fan site |::|</title>
+
+        <!--*****Style*****-->
+        <link rel="preload" as="style" href="./css/style.css">
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="preload" as="style" href="./css/responnsive.css">
+        <link rel="stylesheet" href="./css/responnsive.css">
+        <link rel="preload" as="style" href="./css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="./css/normalize.css">
+
+    </head>
+    <body>
+        <div class="ventana" id="suscricpcion">
+            <div class="container__suscripcion">
+                <header class="header__ventana">
+                    <svg xmlns="http://www.w3.org/2000/svg" onclick="cerrar('suscricpcion')"  class="icon icon-tabler icon-tabler-circle-x" viewBox="0 0 24 24">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <circle cx="12" cy="12" r="9" />
+                        <path d="M10 10l4 4m0 -4l-4 4" />
+                    </svg>
+                </header><!--*****End-Header*****-->
+                <section class="bodySuscripcion">
+                    <div class="detalles__suscripcion">
+                        <h3 class="no-margin">Consigue todo esto</h3>
+                        <ul class="no-margin">
+                            <li>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-rocket" viewBox="0 0 24 24">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                    <path d="M4 13a8 8 0 0 1 7 7a6 6 0 0 0 3 -5a9 9 0 0 0 6 -8a3 3 0 0 0 -3 -3a9 9 0 0 0 -8 6a6 6 0 0 0 -5 3" />
+                                    <path d="M7 14a6 6 0 0 0 -3 6a6 6 0 0 0 6 -3" />
+                                    <circle cx="15" cy="9" r="1" />
+                                </svg>Acceder a contenido exclusivo
+                            </li>
+                            <li>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-rocket" viewBox="0 0 24 24">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                    <path d="M4 13a8 8 0 0 1 7 7a6 6 0 0 0 3 -5a9 9 0 0 0 6 -8a3 3 0 0 0 -3 -3a9 9 0 0 0 -8 6a6 6 0 0 0 -5 3" />
+                                    <path d="M7 14a6 6 0 0 0 -3 6a6 6 0 0 0 6 -3" />
+                                    <circle cx="15" cy="9" r="1" />
+                                </svg>Mensageria directa
+                            </li>
+                            <li>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-rocket" viewBox="0 0 24 24">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                    <path d="M4 13a8 8 0 0 1 7 7a6 6 0 0 0 3 -5a9 9 0 0 0 6 -8a3 3 0 0 0 -3 -3a9 9 0 0 0 -8 6a6 6 0 0 0 -5 3" />
+                                    <path d="M7 14a6 6 0 0 0 -3 6a6 6 0 0 0 6 -3" />
+                                    <circle cx="15" cy="9" r="1" />
+                                </svg>Trasmiciones en vivo
+                            </li>
+                            <li>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-rocket" viewBox="0 0 24 24">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                    <path d="M4 13a8 8 0 0 1 7 7a6 6 0 0 0 3 -5a9 9 0 0 0 6 -8a3 3 0 0 0 -3 -3a9 9 0 0 0 -8 6a6 6 0 0 0 -5 3" />
+                                    <path d="M7 14a6 6 0 0 0 -3 6a6 6 0 0 0 6 -3" />
+                                    <circle cx="15" cy="9" r="1" />
+                                </svg>Cancelar cuando quieras
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="contenedor-btn__suscripcion">
+                        <div class="userSuscripcion">
+                            <img src="https://via.placeholder.com/60x60" alt="avatar">
+                            <p class="no-margin">NOMBRE</p>
+                        </div>
+                        <div class="btn__suscripcion">
+                            <a class="btnSuscripcion2 cursor" onclick="abrir()">
+                                <h5 class="no-margin">SUSCRIBETE POR $5.99</h5>
+                                <p class="no-margin">Por 1 mes</p>
+                            </a>
+                        </div>
+                        <div class="creadoSuscripcion">
+                            <p class="no-margin">
+                                Desarrollado por <a class="cursor" onclick="abrir('firma')">ing_enuarlara.co</a>
+                            </p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+        <div class="nav-contenedor">
+            <div class="barra">
+                <a href="index.html" class="logo">
+                    <h1 class="logo__nombre no-margin centrar-texto">NOMBRE<span class="logo__bold">oLogo</span></h1>
+                </a>
+                <nav class="navegacion">
+                    <a onclick="abrir()" class="navegacion__enlace cursor">Resgistrate</a>
+                    <a onclick="abrir()" class="navegacion__enlace cursor">Inicia Sección</a>
+                    <span class="navegacion__enlace">
+                        <img src="https://via.placeholder.com/60x60" class="cursor" alt="avatar" onclick="abrir('menu')">
+                        <ul class="menu no-margin" id="menu">
+                            <li class="menu__item item-perfil">
+                                <img src="https://via.placeholder.com/60x60" alt="avatar">
+                                <div class="user">
+                                    <p class="no-margin">RauneD</p>
+                                    <a class="no-margin cursor" onclick="abrir()">Editar Avatar</a>
+                                </div>
+                                <svg xmlns="http://www.w3.org/2000/svg" onclick="cerrar('menu')"  class="icon icon-tabler icon-tabler-circle-x" viewBox="0 0 24 24">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                    <circle cx="12" cy="12" r="9" />
+                                    <path d="M10 10l4 4m0 -4l-4 4" />
+                                </svg>
+                            </li>
+                            <li class="menu__item border-bottom"><a href="" class="menu__link">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-bell-ringing" viewBox="0 0 24 24">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                    <path d="M10 5a2 2 0 0 1 4 0a7 7 0 0 1 4 6v3a4 4 0 0 0 2 3h-16a4 4 0 0 0 2 -3v-3a7 7 0 0 1 4 -6" />
+                                    <path d="M9 17v1a3 3 0 0 0 6 0v-1" />
+                                    <path d="M21 6.727a11.05 11.05 0 0 0 -2.794 -3.727" />
+                                    <path d="M3 6.727a11.05 11.05 0 0 1 2.792 -3.727" />
+                                  </svg>Notificaciones
+                            </a></li>
+                            <li class="menu__item border-bottom"><a href="" class="menu__link">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-mail" viewBox="0 0 24 24">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                    <rect x="3" y="5" width="18" height="14" rx="2" />
+                                    <polyline points="3 7 12 13 21 7" />
+                                  </svg>Mensajes
+                            </a></li>
+                            <li class="menu__item border-bottom"><a href="" class="menu__link">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-settings" viewBox="0 0 24 24">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                    <path d="M10.325 4.317c.426 -1.756 2.924 -1.756 3.35 0a1.724 1.724 0 0 0 2.573 1.066c1.543 -.94 3.31 .826 2.37 2.37a1.724 1.724 0 0 0 1.065 2.572c1.756 .426 1.756 2.924 0 3.35a1.724 1.724 0 0 0 -1.066 2.573c.94 1.543 -.826 3.31 -2.37 2.37a1.724 1.724 0 0 0 -2.572 1.065c-.426 1.756 -2.924 1.756 -3.35 0a1.724 1.724 0 0 0 -2.573 -1.066c-1.543 .94 -3.31 -.826 -2.37 -2.37a1.724 1.724 0 0 0 -1.065 -2.572c-1.756 -.426 -1.756 -2.924 0 -3.35a1.724 1.724 0 0 0 1.066 -2.573c-.94 -1.543 .826 -3.31 2.37 -2.37c1 .608 2.296 .07 2.572 -1.065z" />
+                                    <circle cx="12" cy="12" r="3" />
+                                  </svg>Email & Contraseña
+                            </a></li>
+                            <li class="menu__item cerrar__seccion"><a href="" class="menu__link">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-logout" viewBox="0 0 24 24">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                    <path d="M14 8v-2a2 2 0 0 0 -2 -2h-7a2 2 0 0 0 -2 2v12a2 2 0 0 0 2 2h7a2 2 0 0 0 2 -2v-2" />
+                                    <path d="M7 12h14l-3 -3m0 6l3 -3" />
+                                </svg>Cerrar Sección
+                            </a></li>
+                        </ul>
+                    </span>
+                </nav>
+            </div>
+        </div><!--*****End-Nav_Contenedor*****-->
+
+        <header class="header">
+            <div class="header__texto">
+                <h2 class="no-margin">NOMBRE o LOGO</h2>
+                <div class="no-margin btn-contenedor">
+                    <a class="btn btn--primario" onclick="abrir('suscricpcion')">CHAT</a>
+                    <a class="btn btn--secundario" onclick="abrir()">PROPINA</a>
+                </div>
+            </div>
+        </header><!--*****End-Header*****-->
+
+        <main class="contenedor">
+            <div class="contenedor-posLik">
+                <div class="post">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-photo" viewBox="0 0 24 24">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <line x1="15" y1="8" x2="15.01" y2="8" />
+                        <rect x="4" y="4" width="16" height="16" rx="3" />
+                        <path d="M4 15l4 -4a3 5 0 0 1 3 0l5 5" />
+                        <path d="M14 14l1 -1a3 5 0 0 1 3 0l2 2" />
+                    </svg>
+                    <p class="no-margin">54 POSTS</p>
+                </div><!--*****End-Post*****-->
+                <div class="like">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-heart" viewBox="0 0 24 24">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M19.5 13.572l-7.5 7.428l-7.5 -7.428m0 0a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" />
+                    </svg>
+                    <p class="no-margin">2.2K LIKES</p>
+                </div><!--*****End-Like*****-->
+            </div><!--*****End-contenedor-posLik*****-->
+            <div class="contenedor-infor">
+                <div class="descripcion">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nunc massa,
+                         ultricies a elit nec, cursus facilisis ligula. Donec eget vulputate mi. Suspendisse potenti. 
+                         Donec nibh est, tincidunt quis elit quis, scelerisque pretium.
+                    </p>
+                </div>
+                <div class="redes">
+                    <a href="#" class="red_social" target="_target">
+                        <img src="./img/redes/instagram.png" alt="instagram">
+                    </a>
+                    <a href="#" class="red_social" target="_target">
+                        <img src="./img/redes/twitter.png" alt="twitter">
+                    </a>
+                </div>
+            </div><!--*****End-Informacion*****-->
+            <div class="contenedor-btnSuscripcion">
+                <a class="btnSuscripcion cursor" onclick="abrir('suscricpcion')"">
+                    <h5 class="no-margin">SUSCRIBETE POR $5.99</h5>
+                    <p class="no-margin">Por 1 mes</p>
+                </a>
+                <a class="btnSuscripcion cursor" onclick="abrir('suscricpcion')">
+                    <h5 class="no-margin">SUSCRIBETE POR $5.99</h5>
+                    <p class="no-margin">Por 1 mes</p>
+                </a>
+                <a class="btnSuscripcion cursor" onclick="abrir('suscricpcion')">
+                    <h5 class="no-margin">SUSCRIBETE POR $5.99</h5>
+                    <p class="no-margin">Por 1 mes</p>
+                </a>
+            </div><!--*****End-Suscripcion*****-->
+            <div class="contenedor__producto">
+                <div class="producto">
+                        <img class="producto__imagen" src="https://via.placeholder.com/354x341" alt="imagen camisa">    
+                        <div class="producto__informacion">
+                            <p class="producto__nombre">VueJS</p>
+                            <a onclick="abrir('suscricpcion')">
+                                <input type="button" class="producto__submit" value="SUSCRIBETE">
+                            </a>    
+                        </div>    
+                </div><!--producto-->    
+                <div class="producto">
+                        <img class="producto__imagen" src="https://via.placeholder.com/354x341" alt="imagen camisa">                        
+                        <div class="producto__informacion">
+                            <p class="producto__nombre">AngularJS</p>
+                            <a onclick="abrir()">
+                                <input type="button" class="producto__submit" value="SUSCRIBETE">
+                            </a>    
+                        </div>    
+                </div><!--producto-->    
+                <div class="producto">
+                        <img class="producto__imagen" src="https://via.placeholder.com/354x341" alt="imagen camisa">                        
+                        <div class="producto__informacion">
+                            <p class="producto__nombre">ReactJS</p>
+                            <a onclick="abrir()">
+                                <input type="button" class="producto__submit" value="SUSCRIBETE">
+                            </a>    
+                        </div>    
+                </div><!--producto-->    
+            </div><!--*****End-contenedor__producto*****-->
+        </main><!--*****End-Contenedor*****-->
+
+        <footer>
+            <div class="contacto">
+                <p class="no-margin">
+                    Cll 19 # 70-49<br>
+                    (050025)<br>
+                    Medellin/Colombia<br>
+                    whatsapp: <a href="https://api.whatsapp.com/send?phone=573156650193" target="_target">3156650193</a>
+                </p>
+            </div>
+            <div class="desarrollado">
+                <p class="no-margin">
+                    Desarrollado por <a class="cursor" onclick="abrir('firma')">ing_enuarlara.co</a>
+                </p>
+            </div>
+            <div class="legal">
+                <a href="./terminos.html">Terminos</a>
+                <a href="./privacidad.html">Privacidad</a>
+            </div>
+        </footer><!--*****End-footer*****-->
+
+        <div class="ventana" id="firma">
+            <div class="card">
+                <div class="card-side front">
+                    <div class="front__img">
+                        <img src="./img/yo.jpg" alt="front__img">
+                    </div>
+                    <p class="front__nombre no-margin no-padding">
+                        @ing_enuarlara.co
+                    </p>
+                </div>
+                <div class="card-side back">
+                    <svg xmlns="http://www.w3.org/2000/svg" onclick="cerrar('firma')"  class="icon icon-tabler icon-tabler-circle-x" viewBox="0 0 24 24">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <circle cx="12" cy="12" r="9" />
+                        <path d="M10 10l4 4m0 -4l-4 4" />
+                    </svg>
+                    <div class="header__back">
+                        <img src="./img/yo.jpg" alt="back__img">
+                        <p class="no-margin">@ing_enuarlara.co</p>
+                    </div>
+                    <div class="descripcion_back">
+                        <p class="back__nombre no-margin">Enuar Dvd Lara Rjs</p>
+                        <p class="back__categoria no-margin">Emprendedor</p>
+                        <ul class="back__desc no-margin">
+                            <li class="back__items">>> FullStack Developers</li>
+                            <li class="back__items">>> Podcaster: <a href="https://www.instagram.com/podcalopers/" target="_block">@podcalopers</a></li>
+                            <li class="back__items">>> Founder: <a href="https://www.instagram.com/ing_enuarlara.co/" target="_block">@ing_enuarlara.co</a></li>
+                            <li class="back__items">>> ||HTML||CSS||JS||PHP||</li>
+                            <li class="back__items">>> Med/Col</li>
+                        </ul>
+                    </div>
+                    <div class="redes_back">
+                        <a href="https://www.instagram.com/enuar_lara7/" target="_block">
+                            <img src="./img/redes/instagram.png" alt="instagram">
+                        </a>
+                        <a href="https://www.facebook.com/enuarlara2110/" target="_block">
+                            <img src="./img/redes/facebook.png" alt="facebook">
+                        </a>
+                        <a href="https://wa.link/u92ojn" target="_block">
+                            <img src="./img/redes/whatsapp.png" alt="whatsapp">
+                        </a>
+                        <a href="https://t.me/ing_enuarlara" target="_block">
+                            <img src="./img/redes/telegram.png" alt="telegram">
+                        </a>
+                        <a href="https://www.linkedin.com/in/ing-enuarlara/" target="_block">
+                            <img src="./img/redes/link.png" alt="linkedin">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div><!--*****End-firma*****-->
+        
+        <!--*****SCRIPT*****-->
+        <script src="./JS/script.js"></script>
+    </body>
+</html>
